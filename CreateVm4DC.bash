@@ -35,7 +35,7 @@ az network vnet subnet update -g $RG --vnet-name $VNet -n $SUBNETN --network-sec
 
 az vm create --resource-group $RG -n $VM -l $L --image Win2019DataCenter --admin-username $user --admin-password $pass --size $VMSize --public-ip-address $Pip --subnet $SUBNETID --boot-diagnostics-storage $D --license-type Windows_Server --nsg "" --public-ip-address-allocation static
 
-
+#
 
 
 
