@@ -9,7 +9,7 @@ new-adgroup "Los Potatos" -GroupScope Global -Path $AdOU.DistinguishedName
 #Create the rest of the OU's
 New-ADOrganizationalUnit 0-Zeros -ProtectedFromAccidentalDeletion $false
 New-ADOrganizationalUnit 1-Tens -ProtectedFromAccidentalDeletion $false
-New-ADOrganizationalUnit 2-Twenties -path "OU=1-Tens, DC=Aurian, DC=club" -ProtectedFromAccidentalDeletion $false
+New-ADOrganizationalUnit 2-Twenties -path "OU=1-Tens, DC=azscarves,DC=co,DC=uk" -ProtectedFromAccidentalDeletion $false
 New-ADOrganizationalUnit 3-Thirties -ProtectedFromAccidentalDeletion $false
 New-ADOrganizationalUnit 4-Forties -ProtectedFromAccidentalDeletion $false
 New-ADOrganizationalUnit 5-Fifties -ProtectedFromAccidentalDeletion $false
